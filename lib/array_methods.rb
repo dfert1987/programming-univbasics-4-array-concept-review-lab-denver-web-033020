@@ -18,8 +18,9 @@ def find_max_value(array)
   array.length.times { |counter|
   # loops through the amnt of elements in the array
   if array[counter] > val
-    #if new element is greater
+    #if new element is greater than the previous highest element
   val = array[counter]
+  #redefines that as highest element that should be returened
 end
 }
 return val
