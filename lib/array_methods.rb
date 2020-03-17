@@ -20,12 +20,17 @@ def find_max_value(array)
   if array[counter] > high_val
     #if new element is greater than the previous highest element
   high_val = array[counter]
-  #redefines that as highest element that should be returened
+  #redefines that as highest element that should be returned
 end
 }
-return val
+return val_val
 end
 
 def find_min_value(array)
-  # Add your solution here
+  min = array[0]
+  array.length.times { |counter|
+  if array[counter] < min
+  min = array[counter]
 end
+}
+return m
