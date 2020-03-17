@@ -13,13 +13,13 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  val = array[0]
-  # val should = first element in array since thats where loop starts
+  high_val = array[0]
+  # val should = first element in array since thats where loop starts and it's the hightest at that time
   array.length.times { |counter|
   # loops through the amnt of elements in the array
-  if array[counter] > val
+  if array[counter] > high_val
     #if new element is greater than the previous highest element
-  val = array[counter]
+  high_val = array[counter]
   #redefines that as highest element that should be returened
 end
 }
