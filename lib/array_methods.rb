@@ -23,7 +23,7 @@ def find_max_value(array)
   #redefines that as highest element that should be returned
 end
 }
-return val_val
+return high_val
 end
 
 def find_min_value(array)
@@ -33,4 +33,5 @@ def find_min_value(array)
   min = array[counter]
 end
 }
-return m
+return min
+end
