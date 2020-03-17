@@ -16,6 +16,7 @@ def find_max_value(array)
   val = array[0]
   # val should = first element in array since thats where loop starts
   array.length.times { |counter|
+  # 
   if array[counter] > val
   val = array[counter]
 end
